@@ -1,0 +1,8 @@
+Changes
+lib/Template/Plugin/DBM/Deep.pm
+Makefile.PL
+MANIFEST
+META.yml
+README
+t/01-core.t
+t/02-tt2.t
