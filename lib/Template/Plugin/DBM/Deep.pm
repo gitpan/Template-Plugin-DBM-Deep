@@ -6,7 +6,7 @@ use warnings;
 
 use base qw(Template::Plugin);
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 sub new {
   my $class = shift;
@@ -93,6 +93,20 @@ element called C<keys>, which doesn't exist.
 
 There are probably other limitations.  If you find other weirdness,
 let me know so I can update this document.
+
+=head1 METHODS
+
+=over 4
+
+=item new
+
+Used by Plugin interface.
+
+=item dbm_deep_class
+
+Used by Plugin interface.
+
+=back
 
 =head1 SEE ALSO
 
